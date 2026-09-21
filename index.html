@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gambiarra de Precisão | Dispositivos e Soluções</title>
+
+    <style>
+        :root {
+            --primary: #11A4DC;
+            --dark: #16202A;
+            --gray: #5f6b76;
+            --light: #f7f9fb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            color: var(--dark);
+            background: white;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: min(1100px, 92%);
+            margin: auto;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 350px;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .tagline {
+            color: var(--gray);
+            font-style: italic;
+            font-size: 1.15rem;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(2.3rem, 7vw, 4.2rem);
+            line-height: 1.1;
+            margin-bottom: 25px;
+            color: var(--dark);
+        }
+
+        .lead {
+            max-width: 850px;
+            margin: auto;
+            font-size: 1.25rem;
+            color: var(--gray);
+        }
+
+        .section {
+            padding: 90px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 50px;
+            color: var(--primary);
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--light);
+            border-radius: 18px;
+            padding: 35px 25px;
+            text-align: center;
+            border-top: 5px solid var(--primary);
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .card h3 {
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            font-size: 1.15rem;
+        }
+
+        .strike {
+            text-decoration: line-through;
+            color: var(--gray);
+        }
+
+        .highlight {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .contact {
+            text-align: center;
+            background: var(--dark);
+            color: white;
+            padding: 70px 20px;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .contact a {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .footer-note {
+            margin-top: 25px;
+            color: #cbd5e1;
+        }
+
+        @media(max-width:700px) {
+            .hero {
+                min-height: auto;
+                padding: 80px 0;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+
+                <img src="logo.png" alt="Gambiarra de Precisão" class="logo">
+
+                <div class="tagline">
+                    Porque o provisório sempre vira definitivo.
+                </div>
+
+                <h1>
+                    Dispositivos e soluções para
+                    pesquisa, desenvolvimento
+                    e experimentação
+                </h1>
+
+                <p class="lead">
+                    Atuação ultra rápida conforme a necessidade dos professores e
+                    pesquisadores na execução ou suporte às atividades de concepção,
+                    aprimoramento, desenvolvimento, compras, fabricação e montagem.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Atuação
+            </h2>
+
+            <div class="services">
+
+                <div class="card">
+                    <h3>BANCADAS DE ENSAIO</h3>
+                </div>
+
+                <div class="card">
+                    <h3>SISTEMAS DE FIXAÇÃO</h3>
+                </div>
+
+                <div class="card">
+                    <h3>DISPOSITIVOS PARA MEDIÇÃO</h3>
+                </div>
+
+                <div class="card">
+                    <h3>PROTÓTIPOS DIVERSOS</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="about">
+
+                <p>
+                    Profissional com
+                    <strong>17,2 ± 0,4 anos de experiência</strong>
+                    em <span class="strike">gambi</span>
+                    sistemas mecânicos e mecatrônicos no contexto de
+                    projetos de P&amp;D e trabalhos de 
